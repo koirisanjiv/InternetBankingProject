@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="InetBankingv1">
+	<listeners>
+		<listener class-name="com.internetbanking.utilities.Reporting"></listener>
+	</listeners>
+	<test name="BankingWebpage Test">
+		<parameter name ="browser" value = "chrome">
+			<classes>
+				 <class name = "com.internetbanking.testCases.TC_LoginTest_01"/> 
+				 
+			<!--	 <class name ="com.internetbanking.testCases.LoginTestCaseData_fromExcelFile_02"/>	 -->  
+			<!-- 	<class name="com.internetbanking.testCases.TC_AddCustomer_03"/>   -->
+		 
+			
+			</classes>
+		</parameter>
+	</test>
+	</suite>

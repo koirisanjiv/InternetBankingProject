@@ -1,0 +1,6 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty_-DescriptorImpl plugin="maven-repo-cleaner@1.3">
+  <cronSpec></cronSpec>
+  <expirationDays>7</expirationDays>
+  <expirationStyle>1</expirationStyle>
+</org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty_-DescriptorImpl>

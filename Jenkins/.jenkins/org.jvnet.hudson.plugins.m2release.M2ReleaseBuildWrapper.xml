@@ -1,0 +1,6 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jvnet.hudson.plugins.m2release.M2ReleaseBuildWrapper_-DescriptorImpl plugin="m2release@0.16.3">
+  <nexusSupport>false</nexusSupport>
+  <nexusUser>deployment</nexusUser>
+  <nexusPassword>{AQAAABAAAAAQKlwpxksFvoqL+kuT9+V/W7+0tnM66FGdY7ygAmwgqlM=}</nexusPassword>
+</org.jvnet.hudson.plugins.m2release.M2ReleaseBuildWrapper_-DescriptorImpl>

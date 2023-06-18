@@ -1,0 +1,20 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jvnet.hudson.plugins.repositoryconnector.RepositoryConfiguration plugin="repository-connector@2.2.1">
+  <migratedCredentials>true</migratedCredentials>
+  <repositories>
+    <entry>
+      <string>central</string>
+      <org.jvnet.hudson.plugins.repositoryconnector.Repository>
+        <enableReleaseRepository>true</enableReleaseRepository>
+        <enableSnapshotRepository>false</enableSnapshotRepository>
+        <id>central</id>
+        <releaseRepository>
+          <checksum>warn</checksum>
+          <update>daily</update>
+        </releaseRepository>
+        <snapshotRepository reference="../releaseRepository"/>
+        <url>https://repo1.maven.org/maven2</url>
+      </org.jvnet.hudson.plugins.repositoryconnector.Repository>
+    </entry>
+  </repositories>
+</org.jvnet.hudson.plugins.repositoryconnector.RepositoryConfiguration>
